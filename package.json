@@ -1,0 +1,27 @@
+{
+  "author": "ariatemplates <contact@ariatemplates.com> (http://github.com/ariatemplates)",
+  "name": "json-observe",
+  "description": "json-observe",
+  "version": "0.0.1",
+  "homepage": "",
+  "keywords": [
+    "gruntplugin"
+  ],
+  "bin": {
+    "jsonObserveProcessor": "bin/jsonObserveProcessor"
+  },
+  "dependencies": {
+    "optimist": "0.6.0",
+    "uglify-js": "2.4.0"
+  },
+  "devDependencies": {
+    "grunt": "0.4.2",
+    "grunt-contrib-jshint": "0.7.2",
+    "grunt-jsbeautifier": "0.2.6",
+    "grunt-mocha-test": "0.7.0",
+    "expect.js": "0.2.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
